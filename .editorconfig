@@ -1,0 +1,23 @@
+# 表示这是最顶层的配置文件，停止向上查找
+root = true
+
+# 匹配所有文件
+[*]
+# 强制使用 UTF-8 字符集
+charset = utf-8
+# 强制使用 Windows 风格的换行符，这是 UE 的标准
+end_of_line = lf
+# 在文件末尾插入一个新行
+insert_final_newline = true
+# 删除行尾多余的空格
+trim_trailing_whitespace = true
+
+# 针对 C++ 源代码和头文件
+[*.{cpp,h,hpp,inl}]
+indent_style = space
+indent_size = 4
+
+# 针对 Markdown 文档
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
