@@ -1,7 +1,8 @@
 # Socket-Client-Server
-一个基于 CMake 构建系统的  Socket  Client/Server 应用
+一个基于 CMake 构建系统的 Socket 应用集
 
 # CMake 项目目录结构
+```shell
 .
 ├── Apps
 │   ├── SocketClient
@@ -17,3 +18,4 @@
 │   ├── CMakeLists.txt
 │   └── TestUtils.cpp
 └── ThirdParty
+```
